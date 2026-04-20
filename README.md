@@ -14,7 +14,7 @@ to assess the impact of dimensionality reduction on predictive performance
 |---|---|
 | Linear Discriminant Analysis (LDA) | Finds linear combinations of features that best separate classes | 
 | Logistic Regression | Baseline binary classifier on raw and PCA features | 
-| Regular ized Logistic Regression (Lasso) | L1-penalized logistic regression using cv.glmnet, lambda selected by cross-validation | 
+| Regularized Logistic Regression (Lasso) | L1-penalized logistic regression using cv.glmnet, lambda selected by cross-validation | 
 
 ## Pipeline
 
@@ -61,7 +61,7 @@ Download `gallstonenew.csv` from [UCI](https://archive.ics.uci.edu/) and place i
 
 **3. Run the script**
 ```r
-source("model.R")
+source("finalproject.R")
 ```
 
 ## Dependencies 
